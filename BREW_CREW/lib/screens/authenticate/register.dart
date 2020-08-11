@@ -135,6 +135,7 @@ class _RegisterState extends State<Register> {
                           ),
                           TextFormField(
                             decoration: textInputDecoration.copyWith(
+obscureText: true,
                                 hintText: 'Password'),
                             validator: (val) => val.length < 6
                                 ? 'Enter password 6 or more character long'
